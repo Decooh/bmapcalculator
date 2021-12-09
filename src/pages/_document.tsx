@@ -43,6 +43,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <link href="/css/nprogress.css" rel="stylesheet" />
+          <link rel="icon" href="/images/bcoin.png" />
         </Head>
         <body>
           <Main />

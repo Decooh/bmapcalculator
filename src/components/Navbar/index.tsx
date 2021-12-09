@@ -8,10 +8,14 @@ import {
 } from "./Styled";
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 
 const Navbar: React.FC = () => {
   return (
     <>
+      <Head>
+        <title>BMapCalculator - Bombcrypto Map Calculator</title>
+      </Head>
       <NavbarContainer>
         <MainContent>
           <NavbarContent>
