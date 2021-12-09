@@ -59,18 +59,21 @@ const MapCalculator: NextPage = () => {
       //
     } else if (condition == "minus") {
       //
-      const resultNewSum =
-        Number(sumCalculator) - Number(dataCalculator[value].approxValue);
-      setSumCalculator(String(resultNewSum.toFixed(5)));
+      if (dataCalculator[value].count > 0) {
+        const resultNewSum =
+          Number(sumCalculator) - Number(dataCalculator[value].approxValue);
+        setSumCalculator(String(resultNewSum.toFixed(5)));
 
-      dataCalculator[value] = {
-        ...dataCalculator[value],
-        count:
-          dataCalculator[value].count !== 0
-            ? dataCalculator[value].count - 1
-            : 0,
-      };
-      setDataCalculator([...dataCalculator]);
+        dataCalculator[value] = {
+          ...dataCalculator[value],
+          count:
+            dataCalculator[value].count !== 0
+              ? dataCalculator[value].count - 1
+              : 0,
+        };
+        setDataCalculator([...dataCalculator]);
+      }
+
       //
     }
   };
@@ -83,7 +86,7 @@ const MapCalculator: NextPage = () => {
             return (
               <BoxListItem key={index}>
                 <div id="imageContainer">
-                  <Image width={30} height={30} alt="image" src={chest.image} />
+                  <Image width={45} height={45} alt="image" src={chest.image} />
                   <br />
                   <span>{chest.approxValue}</span>
                 </div>
@@ -108,12 +111,7 @@ const MapCalculator: NextPage = () => {
         </BoxList>
         <ContainerResults>
           {"~"}
-          <Image
-            alt="image"
-            width={30}
-            height={30}
-            src="https://bombcryptosimulator.com/img/bcoin.png"
-          />
+          <Image alt="image" width={30} height={30} src="/images/bcoin.png" />
           <div>{Number(sumCalculator).toFixed(2)} BC</div>
         </ContainerResults>
         <ButtonReset onClick={() => resetDefault()} />

@@ -7,7 +7,7 @@ const ButtonReset: React.FC<any> = ({ ...props }) => {
     <>
       <StyleButtonReset {...props}>
         {/* <BiReset size="18" /> Resetar */}
-        Reset
+        RESET
       </StyleButtonReset>
     </>
   );

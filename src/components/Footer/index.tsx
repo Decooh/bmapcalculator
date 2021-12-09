@@ -6,8 +6,17 @@ const Footer: NextPage = () => {
   return (
     <>
       <FooterContaner>
-        Made with <HeartSvg size="20px" /> by{" "}
-        <a href="https://github.com/decooh">@Decooh</a>
+        This is a free unofficial app.
+        <h2>
+          Made with <HeartSvg size="30px" /> by{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/Decoohz"
+          >
+            @Decoohz
+          </a>
+        </h2>
       </FooterContaner>
     </>
   );

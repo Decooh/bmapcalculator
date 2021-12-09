@@ -13,6 +13,7 @@ export const Container = styled.div`
   color: #fff;
   border-radius: 1rem;
   backdrop-filter: blur(10px);
+  font-size: 18px;
 `;
 
 export const ContainerMapCalculator = styled.div`
@@ -52,7 +53,7 @@ export const BoxListItem = styled.li`
 
   div#imageContainer {
     font-weight: 200;
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
   }
 
@@ -74,4 +75,40 @@ export const ButtonMore = styled.button`
 export const ButtonMinus = styled.button`
   background-color: transparent;
   border: 0;
+`;
+
+export const DonationContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  h1 {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    color: #f5cb5f;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #60a1f3;
+  }
+
+  h3 {
+    font-weight: 200;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #db4a6f;
+  }
+
+  span {
+    font-size: 16px;
+    font-weight: 200;
+  }
 `;

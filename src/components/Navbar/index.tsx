@@ -18,9 +18,9 @@ const Navbar: React.FC = () => {
             <Link passHref={true} href="/">
               <Image
                 alt="image"
-                width={125}
-                height={50}
-                src="https://bombcrypto.io/wp-content/uploads/2021/09/1-logo.png"
+                width={135}
+                height={68}
+                src="/images/bmapcalculator.png"
               />
             </Link>
             <NavbarMenu>
