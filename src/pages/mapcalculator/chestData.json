@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name":"Wood Chest",
+        "image":"https://bombcryptosimulator.com/img/chestWood.png",
+        "approxValue": 0.01425,
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name":"Metal Chest",
+        "image":"https://bombcryptosimulator.com/img/chestMetal.png",
+        "approxValue": 0.0325,
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name":"Gold Chest",
+        "image":"https://bombcryptosimulator.com/img/chestGold.png",
+        "approxValue": 0.1625,
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name":"Crystal Chest",
+        "image":"https://bombcryptosimulator.com/img/chestCrystal.png",
+        "approxValue": 0.325,
+        "count": 0
+    }
+]

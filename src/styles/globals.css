@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gemunu Libre", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  background-image: url("https://bombcrypto.io/wp-content/uploads/2021/09/1-BG.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  /* color: #eb4465; */
+  color: #fff2a5;
+  text-shadow: -1px 0 #986951, 0 1px #986951, 1px 0 #986951, 0 -1px #986951;
+  transition: all 0.1s ease-in;
+}
+
+a:hover {
+  color: #ffc652;
+}
+
+* {
+  box-sizing: border-box;
+}
