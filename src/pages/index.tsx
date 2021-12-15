@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           gap: "1rem",
         }}
       >
-        Publicidade
+        Aublicidade
         <br />
         <a href="https://www.anroll.net/" target="_blank" rel="noreferrer">
           <Image

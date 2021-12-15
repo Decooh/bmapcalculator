@@ -125,7 +125,7 @@ const MapCalculator: NextPage = () => {
           gap: "1rem",
         }}
       >
-        Publicidade
+        Advertising
         <br />
         <a href="https://www.anroll.net/" target="_blank" rel="noreferrer">
           <Image
