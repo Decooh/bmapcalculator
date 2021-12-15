@@ -127,7 +127,7 @@ const MapCalculator: NextPage = () => {
       >
         Publicidade
         <br />
-        <a href="https://www.anroll.net/" target="_blank">
+        <a href="https://www.anroll.net/" target="_blank" rel="noreferrer">
           <Image
             src="https://static.anroll.net/images/animesroll-animesonline.jpg"
             width={468}
