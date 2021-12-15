@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["bombcrypto.io", "bombcryptosimulator.com"],
+    domains: ["bombcrypto.io", "bombcryptosimulator.com", "static.anroll.net"],
     // formats: ["image/png"],
   },
 };

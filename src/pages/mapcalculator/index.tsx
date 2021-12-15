@@ -7,6 +7,7 @@ import {
   ContainerResults,
   ButtonMinus,
   ButtonMore,
+  Container,
 } from "../../components/styles";
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
 import chestData from "./chestData.json";
@@ -116,6 +117,24 @@ const MapCalculator: NextPage = () => {
         </ContainerResults>
         <ButtonReset onClick={() => resetDefault()} />
       </ContainerMapCalculator>
+      <Container
+        style={{
+          display: "flex",
+          alignItems: "center",
+          flexDirection: "column",
+          gap: "1rem",
+        }}
+      >
+        Publicidade
+        <br />
+        <a href="https://www.anroll.net/" target="_blank">
+          <Image
+            src="https://static.anroll.net/images/animesroll-animesonline.jpg"
+            width={468}
+            height={60}
+          />
+        </a>
+      </Container>
     </>
   );
 };

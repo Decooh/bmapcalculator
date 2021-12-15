@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Container, DonationContainer } from "../components/styles";
 
@@ -27,6 +28,24 @@ const Home: NextPage = () => {
             with the TXID after donating :)
           </span>
         </DonationContainer>
+      </Container>
+      <Container
+        style={{
+          display: "flex",
+          alignItems: "center",
+          flexDirection: "column",
+          gap: "1rem",
+        }}
+      >
+        Publicidade
+        <br />
+        <a href="https://www.anroll.net/" target="_blank">
+          <Image
+            src="https://static.anroll.net/images/animesroll-animesonline.jpg"
+            width={468}
+            height={60}
+          />
+        </a>
       </Container>
     </>
   );
